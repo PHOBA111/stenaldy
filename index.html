@@ -9,21 +9,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <script type="module">
         // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
-        import { getFirestore, collection, getDocs, addDoc, updateDoc, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyCrvHIdoNxKKWa-RAfSg5zIaw27b91K-1M",
-            authDomain: "phoba-b051d.firebaseapp.com",
-            projectId: "phoba-b051d",
-            storageBucket: "phoba-b051d.appspot.com",
-            messagingSenderId: "284834545628",
-            appId: "1:284834545628:web:fdcbacc031935dd3d49919"
-        };
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyB_J_zGdvByUvgbCehOr8gA8z7ZqTXCey8",
+    authDomain: "chastel.firebaseapp.com",
+    projectId: "chastel",
+    storageBucket: "chastel.appspot.com",
+    messagingSenderId: "553622710057",
+    appId: "1:553622710057:web:f616e04fcf0ddcb7033938"
+  };
 
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
         // Vue instance
